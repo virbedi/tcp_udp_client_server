@@ -1,9 +1,9 @@
 # tcp_udp_client_server
 Basic utilization of TCP and UDP Client Server Interaction.
   
-TCP is a connection-oriented protocol. Connection-orientation means that the communicating devices should establish a connection before transmitting data and should close the connection after transmitting the data.
+TCP is a connection-oriented protocol. The communicating devices should establish a connection before transmitting data and should close the connection after transmitting the data.
 
-UDP is the Datagram oriented protocol. This is because there is no overhead for opening a connection, maintaining a connection, and terminating a connection. UDP is efficient for broadcast and multicast type of network transmission.
+UDP is the Datagram oriented protocol. This is because there is no overhead for opening, maintaining and terminating a connection. UDP is efficient for broadcast and multicast type of network transmission.
 
 In order to have reliable UDP transmission, I have implemented ACK messages and retransmission in case of lost packets. 
 
